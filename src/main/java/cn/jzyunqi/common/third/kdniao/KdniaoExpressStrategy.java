@@ -12,11 +12,11 @@ import cn.jzyunqi.common.third.kdniao.response.KdniaoETResult;
  * @author wiiyaya
  * @date 2024/3/8
  */
-public class KdniaoExpressStrange implements ExpressHelper {
+public class KdniaoExpressStrategy implements ExpressHelper {
 
     private final KdniaoClient kdniaoClient;
 
-    public KdniaoExpressStrange(KdniaoClient kdniaoClient){
+    public KdniaoExpressStrategy(KdniaoClient kdniaoClient){
         this.kdniaoClient = kdniaoClient;
     }
 
